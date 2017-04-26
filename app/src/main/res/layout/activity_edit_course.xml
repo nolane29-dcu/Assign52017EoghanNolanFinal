@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dip"
+    android:background="#FFFFFF"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editcoursename"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_the_name_of_the_course"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editcourseaddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_the_location_of_the_course"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole1et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole1"
+             />
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole10et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole2et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole2" />
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole11et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole11"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole3et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole3"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole12et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole12"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole4et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole4"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole13et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole13"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole5et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole5"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole14et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole14"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole6et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole6"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole15et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole15" />
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole7et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole7"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole16et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole16"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole8et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole8"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole17et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole17"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole9et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:nextFocusDown="@id/edithole10"
+            android:id="@+id/edithole9"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole18et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/edithole18"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/updatecoursebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/deletecoursebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Delete" />
+    </LinearLayout>
+
+</LinearLayout>

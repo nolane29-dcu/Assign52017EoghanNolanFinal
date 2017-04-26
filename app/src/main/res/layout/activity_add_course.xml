@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dip"
+    android:background="#FFFFFF"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/coursename"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_course_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/courseaddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_course_address"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole1et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole1ET" />
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole10et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole10ET" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole2et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole2ET" />
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole11et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole11ET"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole3et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole3ET"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole12et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole12ET"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole4et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole4ET"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole13et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole13ET"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole5et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole5ET"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole14et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole14ET"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole6et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole6ET"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole15et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole15ET" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole7et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole7ET"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole16et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole16ET"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole8et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole8ET"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole17et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole17ET"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole9et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:nextFocusDown="@id/hole10ET"
+            android:id="@+id/hole9ET"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole18et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/hole18ET"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_course"
+        android:id="@+id/add_course"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

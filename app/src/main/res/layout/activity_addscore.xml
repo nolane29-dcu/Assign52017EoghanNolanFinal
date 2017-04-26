@@ -1,0 +1,220 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dip"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/resultid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/select_player"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/playername"
+            android:inputType="textPersonName"
+            android:layout_weight="0.40">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole1et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole1"
+            />
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole10et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole2et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole2" />
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole11et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole11"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole3et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole3"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole12et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole12"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole4et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole4"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole13et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole13"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole5et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole5"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole14et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole14"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole6et" />
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole6"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole15et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole15" />
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole7et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole7"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole16et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole16"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole8et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole8"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole17et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole17"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LLEditCourse">
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole9et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:nextFocusDown="@id/reshole10"
+            android:id="@+id/reshole9"/>
+
+        <TextView
+            style="@style/EditCourseTV"
+            android:text="@string/hole18et"/>
+        <EditText
+            style="@style/EditCourse"
+            android:id="@+id/reshole18"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/addresultbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="@string/add_result" />
+    </LinearLayout>
+
+</LinearLayout>

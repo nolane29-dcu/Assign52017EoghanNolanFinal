@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/resultid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+
+    <TextView
+        android:id="@+id/playername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/playerscore"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/playerscore"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dp"
+        android:padding="3dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/reshole1"
+        style="@style/ResultsLV"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole2"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole3"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole4"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole5"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole6"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole7"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole8"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole9"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole10"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole11"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole12"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole13"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole14"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole15"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole16"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole17"/>
+    <TextView
+        style="@style/ResultsLV"
+        android:id="@+id/reshole18"/>
+</RelativeLayout>

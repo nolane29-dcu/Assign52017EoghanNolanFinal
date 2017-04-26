@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">ProjectV2</string>
+    <string name="add_course">Add Course</string>
+    <string name="hole18">Hole18</string>
+    <string name="hole17">Hole17</string>
+    <string name="hole16">Hole16</string>
+    <string name="hole15">Hole15</string>
+    <string name="hole14">Hole14</string>
+    <string name="hole13">Hole13</string>
+    <string name="hole12">Hole12</string>
+    <string name="hole11">Hole11</string>
+    <string name="hole10">Hole10</string>
+    <string name="hole9">Hole9</string>
+    <string name="hole8">Hole8</string>
+    <string name="hole7">Hole7</string>
+    <string name="hole6">Hole6</string>
+    <string name="hole5">Hole5</string>
+    <string name="hole4">Hole4</string>
+    <string name="hole3">Hole3</string>
+    <string name="hole2">Hole2</string>
+    <string name="hole1">Hole1</string>
+    <string name="enter_course_name">Enter the name of the course</string>
+    <string name="enter_course_address">Enter the location of the course</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_the_name_of_the_course">Enter the name of the course</string>
+    <string name="enter_the_location_of_the_course">Enter the location of the course</string>
+    <string name="hole1et">Hole1</string>
+    <string name="hole2et">Hole2</string>
+    <string name="hole3et">Hole3</string>
+    <string name="hole4et">Hole4</string>
+    <string name="hole5et">Hole5</string>
+    <string name="hole6et">Hole6</string>
+    <string name="hole7et">Hole7</string>
+    <string name="hole8et">Hole8</string>
+    <string name="hole9et">Hole9</string>
+    <string name="hole10et">Hole10</string>
+    <string name="hole11et">Hole11</string>
+    <string name="hole12et">Hole12</string>
+    <string name="hole13et">Hole13</string>
+    <string name="hole14et">Hole14</string>
+    <string name="hole15et">Hole15</string>
+    <string name="hole16et">Hole16</string>
+    <string name="hole17et">Hole17</string>
+    <string name="hole18et">Hole18</string>
+    <string name="title_activity_results">Results</string>
+    <string name="no_results">No results found</string>
+    <string name="select_player">Select a player</string>
+    <string name="add_result">Add Result</string>
+    <string name="update_result">Update Result</string>
+    <string name="delete_result">Delete Result</string>
+    <string name="fabText">View All Courses</string>
+    <string name="HandiGraph">Handicap</string>
+    <string name="graphHeading">Handicap History</string>
+
+    <string-array name="golfernames">
+        <item>Eoghan Nolan</item>
+        <item>John Burke</item>
+        <item>Daniel Carney</item>
+        <item>Padraig Nolan</item>
+        <item>Lorcan Timoney</item>
+        <item>Ciaran Browne</item>
+    </string-array>
+
+    <string-array name="coursenames">
+        <item>Beech Park</item>
+        <item>Portarlington</item>
+        <item>The K Club</item>
+        <item>Blessington Lakes</item>
+        <item>Dunmurry Springs</item>
+        <item>Castleknock</item>
+        <item>Moyvalley</item>
+        <item>Grange Castle</item>
+    </string-array>
+
+</resources>

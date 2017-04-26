@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sqlitesample.MainActivity" >
+
+    <item
+        android:id="@+id/add_resultmenu"
+        android:title="Add Result" />
+
+    <item
+        android:id="@+id/new_competition"
+        android:title="New Competition" />
+
+    <item
+        android:id="@+id/home_menu"
+        android:title="Home" />
+
+</menu>
